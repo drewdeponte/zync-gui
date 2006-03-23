@@ -1,0 +1,20 @@
+1. Building zync-gui
+--------------------
+In order to build the zync-gui application all one should have to do is the
+following command under their user account (This should be from the root of
+the project directory):
+
+$ make
+
+2. Installing zync-gui
+----------------------
+To install zync-gui all one must do is the following command as root (from the
+root of the projects directory).
+
+# make install
+
+4. Using zync-gui
+-----------------
+Simply execute the zync-gui command as follows.
+
+$ zync-gui

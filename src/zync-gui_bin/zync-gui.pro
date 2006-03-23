@@ -1,0 +1,9 @@
+TEMPLATE = app
+CONFIG += qt warn_on release
+HEADERS = ZConfDlg.h ZMainWin.h
+SOURCES = zync-gui.cc ZConfDlg.cpp ZMainWin.cpp
+INCLUDEPATH =
+LIBS += -ldl -lconfmgr
+TARGET = zync-gui
+target.path = /usr/local/bin/
+INSTALLS += target
